@@ -45,7 +45,7 @@ $(function () {
     createPlatform(500, 250, 180, 20, "blue");
     createPlatform(150, 160, 100, 20, "navy");
     createPlatform(600, 480, 150, 20);
-    createPlatform(50, 280, 110, 20, "yellow");
+    createPlatform(50, 280, 112, 20, "yellow");
     createPlatform(300, 200, 130, 20);
     createPlatform(200, 19, 120, 20, "navy");
     createPlatform(1100, 420, 150, 200, "purple");
@@ -53,11 +53,6 @@ $(function () {
     createPlatform(700, 500, 1100, 10, "purple");
     // TODO 3 - Create Collectables
     createCollectables("diamond", 100, 400, 600, 10);
-    createCollectables("money", 570, 170);
-    createCollectables("money", 300, 310);
-    createCollectables("money", 450, 240);
-    createCollectables("money", 500, 240);
-    createCollectables("chest", 600, 160, 0.7, 1);
     createCollectibles(150, 120, "star");
     createCollectibles(350, 380, "coin");
     createCollectibles(500, 210, "heart");
