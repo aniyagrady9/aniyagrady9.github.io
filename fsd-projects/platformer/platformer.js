@@ -36,7 +36,6 @@ $(function () {
     createPlatform(600, 210, 120, 90, "orange");
     createPlatform(150, 500, 100, 15, "green");
     createPlatform(350, 420, 100, 15, "green");
-    createPlatform(150, 340, 100, 15, "green");
     createPlatform(50, 550, 200, 20, "gray");
     createPlatform(550, 550, 200, 20, "gray");
     createPlatform(350, 580, 50, 10, "crimson");
@@ -67,10 +66,7 @@ $(function () {
     createCannons("bottom", 1100, 70);
     createCannons("bottom", 400, 700);
     createCannons("bottom", 200, 700);
-    createCannons("left", 300, 2000);
-    createCannons("right", 200, 1500);
-    createCannons("top", 400, 3000);
-    createCannons("right", 450, 2500);
+    createCannons("left", 300, 2000);// blasts quickly (every 6 seconds)
     //////////////////////////////////
     // ONLY CHANGE ABOVE THIS POINT //
     //////////////////////////////////
