@@ -40,28 +40,30 @@ $(function () {
     createPlatform(550, 550, 200, 20, "gray");
     createPlatform(350, 580, 50, 10, "crimson");
     createPlatform(100, 600, 200, 60, "purple");
-    createPlatform(350, 420, 150, 20, "purple");
-    createPlatform(200, 330, 120, 20, "red");
+    createPlatform(200, 330, 700, 20, "red");
     createPlatform(500, 250, 180, 20, "blue");
-    createPlatform(150, 160, 100, 20, "navy");
-    createPlatform(600, 480, 150, 20);
+    createPlatform(150, 330, 292, 10, "navy");
+    createPlatform(600, 480, 150, 20,"dark green");//sloping right 
     createPlatform(50, 280, 112, 20, "yellow");
-    createPlatform(300, 200, 130, 20);
-    createPlatform(200, 19, 120, 20, "navy");
-    createPlatform(1100, 420, 150, 200, "purple");
-    createPlatform(100, 500, "gold");
+    createPlatform(300, 200, 130, 20,"pink");
+    createPlatform(100, 500,120,15, "gold");
     createPlatform(700, 500, 1100, 10, "purple");
+    createPlatform(40,1300,29,203,"yellow");
     // TODO 3 - Create Collectables
-    createCollectables("diamond", 100, 400, 600, 10);
-    createCollectibles(150, 120, "star");
-    createCollectibles(350, 380, "coin");
-    createCollectibles(500, 210, "heart");
+    createCollectable("diamond",200, 100);
+    createCollectable("kennedi",150, 120);
+    createCollectable("grace", 100, 400);
+    createCollectable("max",300,300);
+    createCollectable("steve",720,500);
+    createCollectable("kennedi",1200,120);
+    createCollectable("grace",500,100);
+    createCollectable("database",300,900); 
+    createCollectable("grace", 300, 1100);
     // TODO 4 - Create Cannons
-    createCannons("bottom", 100, 300);
-    createCannons("bottom", 1100, 70);
-    createCannons("bottom", 400, 700);
-    createCannons("bottom", 200, 700);
-    createCannons("left", 300, 2000);// blasts quickly (every 6 seconds)
+    createCannon("bottom",1100, 70);//slowly fires every 2 minutes
+    createCannon( "bottom",400, 700);//slowly fires every 2 minutes
+    createCannon( "left",400, 700);//slowly fires every 2 minutes 
+    createCannon( "left",300, 2000);//slowly fires every 2 minutes 
     //////////////////////////////////
     // ONLY CHANGE ABOVE THIS POINT //
     //////////////////////////////////
