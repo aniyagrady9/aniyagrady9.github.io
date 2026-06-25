@@ -21,7 +21,7 @@ var init = function (window) {
         
         // TODO 1 : Declare and initialize our variables
         var circle;
-        var ciecles = [];
+        var circles = [];
 
 
         // TODO 2 : Create a function that draws a circle 
@@ -31,14 +31,14 @@ var init = function (window) {
             view.addChild(circle);
             circles.push(circle);
         }
-
+        
 
         // TODO 3 : Call the drawCircle() function
         drawCircle();
 
 
         // TODO 7 : Use a loop to create multiple circles
-
+        var rightEdge = circle.x + circle.radius;
 
 
 
@@ -67,7 +67,10 @@ var init = function (window) {
            physikz.checkCirclePosition(/* bracket notation to access the fifth circle */);
 
             // TODO 8 / TODO 9 : Iterate over the array
-           
+           for (var i = 0; i < circles.length; i++) {
+            physikz.updatePosition(/* bracket notation to access the third circle */);
+            game.checkCirclePosition(/* bracket notation to access the third circle */);
+          }
             
         }
     
@@ -84,7 +87,7 @@ var init = function (window) {
             }
             
             // TODO 6 : YOUR CODE STARTS HERE //////////////////////
-            
+            var rightEdge = circle.x + circle.radius;
 
 
             // YOUR TODO 6 CODE ENDS HERE //////////////////////////
